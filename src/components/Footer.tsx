@@ -13,7 +13,8 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/1ddcf023-2e28-462a-9a44-8614680a0998.png" 
                 alt="Ron Knight Plumbing Logo" 
-                className="h-10 w-auto filter brightness-0 invert"
+                className="h-10 w-auto"
+                style={{ filter: 'brightness(0) invert(1)' }}
               />
               <div>
                 <h3 className="text-xl font-bold">Ron Knight Plumbing</h3>

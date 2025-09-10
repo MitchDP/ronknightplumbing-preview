@@ -9,17 +9,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
-              <img 
-                src="/lovable-uploads/1ddcf023-2e28-462a-9a44-8614680a0998.png" 
-                alt="Ron Knight Plumbing Logo" 
-                className="h-10 w-auto"
-                style={{ filter: 'brightness(0) invert(1)' }}
-              />
-              <div>
-                <h3 className="text-xl font-bold">Ron Knight Plumbing</h3>
-                <p className="text-sm opacity-80">Family Owned Since 1972</p>
-              </div>
+            <div className="mb-4">
+              <h3 className="text-xl font-bold">Ron Knight Plumbing</h3>
+              <p className="text-sm opacity-80">Family Owned Since 1972</p>
             </div>
             <p className="text-background/80 mb-6 max-w-md">
               Third-generation, family-owned plumbing company serving Albany, Oregon, 

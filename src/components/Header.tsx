@@ -34,9 +34,11 @@ const Header = () => {
               <p className="font-semibold text-foreground">(541) 928-7279</p>
               <p className="text-sm text-muted-foreground">Mon-Fri: 8am-5pm</p>
             </div>
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <Phone className="h-4 w-4 mr-2" />
-              Call Now
+            <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
+              <a href="tel:(541) 928-7279">
+                <Phone className="h-4 w-4 mr-2" />
+                Call Now
+              </a>
             </Button>
           </div>
         </div>
@@ -86,9 +88,11 @@ const Header = () => {
                     <p className="font-semibold text-foreground">(541) 928-7279</p>
                     <p className="text-sm text-muted-foreground">Mon-Fri: 8am-5pm</p>
                   </div>
-                  <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-                    <Phone className="h-4 w-4 mr-2" />
-                    Call Now
+                  <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+                    <a href="tel:(541) 928-7279">
+                      <Phone className="h-4 w-4 mr-2" />
+                      Call Now
+                    </a>
                   </Button>
                 </div>
               </div>

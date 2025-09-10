@@ -5,8 +5,18 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
+  const { toast } = useToast();
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    toast({
+      title: "Request Sent!",
+      description: "We'll contact you within 1 hour during business hours.",
+    });
+  };
   return (
     <section id="contact" className="py-16 bg-secondary">
       <div className="container mx-auto px-4">
@@ -27,6 +37,7 @@ const Contact = () => {
               <CardTitle className="text-xl font-semibold text-foreground">Request Service</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
+              <form onSubmit={handleSubmit} className="space-y-4">
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <Label htmlFor="name" className="text-foreground">Name *</Label>
@@ -73,13 +84,14 @@ const Contact = () => {
                 />
               </div>
               
-              <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-6">
-                Send Request
-              </Button>
-              
-              <p className="text-sm text-muted-foreground text-center">
-                * Required fields. We'll contact you within 1 hour during business hours.
-              </p>
+                <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-6">
+                  Send Request
+                </Button>
+                
+                <p className="text-sm text-muted-foreground text-center">
+                  * Required fields. We'll contact you within 1 hour during business hours.
+                </p>
+              </form>
             </CardContent>
           </Card>
           
@@ -160,8 +172,10 @@ const Contact = () => {
                   <MapPin className="h-12 w-12 text-primary mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-foreground mb-2">Find Us in Albany</h3>
                   <p className="text-muted-foreground">2845 Pacific Blvd SW, Albany, OR 97321</p>
-                  <Button variant="outline" className="mt-4">
-                    Get Directions
+                  <Button asChild variant="outline" className="mt-4">
+                    <a href="https://maps.google.com/?q=2845+Pacific+Blvd+SW,+Albany,+OR+97321" target="_blank" rel="noopener noreferrer">
+                      Get Directions
+                    </a>
                   </Button>
                 </div>
               </div>

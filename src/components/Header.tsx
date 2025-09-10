@@ -13,7 +13,7 @@ const Header = () => {
           <img 
             src="/lovable-uploads/1acf07f8-6c24-45de-a307-1b835443d913.png" 
             alt="Ron Knight Plumbing - Family Owned Since 1972" 
-            className="h-10 sm:h-12 w-auto"
+            className="h-12 sm:h-16 w-auto"
           />
         </div>
         

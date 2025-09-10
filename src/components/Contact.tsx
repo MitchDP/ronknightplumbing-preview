@@ -170,11 +170,11 @@ const Contact = () => {
               <div className="bg-muted h-64 lg:h-96 rounded-lg flex items-center justify-center">
                 <div className="text-center">
                   <MapPin className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Find Us in Albany</h3>
-                  <p className="text-muted-foreground">2845 Pacific Blvd SW, Albany, OR 97321</p>
+                  <h3 className="text-xl font-semibold text-foreground mb-2">Find Us on Google Maps</h3>
+                  <p className="text-muted-foreground">View our business profile and customer reviews</p>
                   <Button asChild variant="outline" className="mt-4">
-                    <a href="https://maps.google.com/?q=2845+Pacific+Blvd+SW,+Albany,+OR+97321" target="_blank" rel="noopener noreferrer">
-                      Get Directions
+                    <a href="https://share.google/XJnVaVt1nUSkZFtY0" target="_blank" rel="noopener noreferrer">
+                      View on Google Maps
                     </a>
                   </Button>
                 </div>

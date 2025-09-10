@@ -20,7 +20,7 @@ const Hero = () => {
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Third-generation, family-owned plumbing company serving the Willamette Valley 
-            for over 55 years. Professional, reliable service you can count on.
+            for over 50 years in business. Professional, reliable service you can count on.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

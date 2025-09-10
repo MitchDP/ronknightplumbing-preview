@@ -12,8 +12,8 @@ const Header = () => {
             className="h-12 w-auto"
           />
           <div>
-            <h1 className="text-xl font-bold">Ron Knight Plumbing</h1>
-            <p className="text-sm text-muted-foreground">Family Owned Since 1965</p>
+            <h1 className="text-xl font-bold font-old-english text-primary">Ron Knight Plumbing</h1>
+            <p className="text-sm text-muted-foreground">Family Owned Since 1972</p>
           </div>
         </div>
         

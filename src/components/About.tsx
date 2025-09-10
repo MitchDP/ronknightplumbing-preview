@@ -11,7 +11,7 @@ const About = () => {
             Three Generations of <span className="text-primary">Trusted Service</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Since 1965, Ron Knight Plumbing has been Albany's go-to plumbing company. 
+            Since 1972, Ron Knight Plumbing has been Albany's go-to plumbing company. 
             As a third-generation, family-owned business, we understand the importance of 
             reliability, professionalism, and quality workmanship in every job we do.
           </p>
@@ -23,7 +23,7 @@ const About = () => {
               <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Clock className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">55+ Years</h3>
+              <h3 className="font-semibold text-foreground mb-2">50+ Years</h3>
               <p className="text-muted-foreground text-sm">Of reliable service in the Willamette Valley</p>
             </CardContent>
           </Card>

@@ -17,12 +17,12 @@ const Footer = () => {
               />
               <div>
                 <h3 className="text-xl font-bold">Ron Knight Plumbing</h3>
-                <p className="text-sm opacity-80">Family Owned Since 1965</p>
+                <p className="text-sm opacity-80">Family Owned Since 1972</p>
               </div>
             </div>
             <p className="text-background/80 mb-6 max-w-md">
               Third-generation, family-owned plumbing company serving Albany, Oregon, 
-              and the surrounding Willamette Valley for over 55 years. Professional, 
+              and the surrounding Willamette Valley for over 50 years in business. Professional, 
               reliable service you can trust.
             </p>
             <div className="flex flex-wrap gap-3">
@@ -88,7 +88,7 @@ const Footer = () => {
               © 2024 Ron Knight Plumbing. All rights reserved.
             </p>
             <p className="text-sm text-background/60 mt-1">
-              Serving Albany, Corvallis, Salem, and the entire Willamette Valley since 1965.
+              Serving Albany, Corvallis, Salem, and the entire Willamette Valley since 1972.
             </p>
           </div>
           

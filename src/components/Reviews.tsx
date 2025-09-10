@@ -62,9 +62,9 @@ const Reviews = () => {
               Join hundreds of satisfied customers who trust Ron Knight Plumbing for all their plumbing needs. 
               Professional service, fair pricing, and quality workmanship guaranteed.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
+              <div className="flex flex-wrap justify-center gap-4">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">55+</div>
+                <div className="text-2xl font-bold text-primary">50+</div>
                 <div className="text-sm text-muted-foreground">Years in Business</div>
               </div>
               <div className="text-center">

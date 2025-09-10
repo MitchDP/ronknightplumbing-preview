@@ -9,16 +9,12 @@ const Header = () => {
   return (
     <header className="bg-background border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center">
           <img 
-            src="/lovable-uploads/1ddcf023-2e28-462a-9a44-8614680a0998.png" 
-            alt="Ron Knight Plumbing Logo" 
-            className="h-12 w-auto"
+            src="/lovable-uploads/1acf07f8-6c24-45de-a307-1b835443d913.png" 
+            alt="Ron Knight Plumbing - Family Owned Since 1972" 
+            className="h-10 sm:h-12 w-auto"
           />
-          <div>
-            <h1 className="text-xl font-bold font-old-english text-primary">Ron Knight Plumbing</h1>
-            <p className="text-sm text-muted-foreground">Family Owned Since 1972</p>
-          </div>
         </div>
         
         <div className="hidden md:flex items-center space-x-6">

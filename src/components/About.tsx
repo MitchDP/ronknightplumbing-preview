@@ -17,6 +17,14 @@ const About = () => {
           </p>
         </div>
         
+        <div className="flex justify-center mb-12">
+          <img 
+            src="/lovable-uploads/2dede65e-940b-4687-90a3-88ab5a13eda6.png" 
+            alt="Three generations of the Knight family - Ron Knight Plumbing team"
+            className="max-w-full h-auto rounded-lg shadow-lg"
+          />
+        </div>
+        
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           <Card className="text-center p-6 shadow-lg border-0 bg-card">
             <CardContent className="p-0">
